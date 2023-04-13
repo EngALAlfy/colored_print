@@ -1,4 +1,4 @@
-library colored_print;
+library flutter_colored_print;
 
 import 'package:flutter/foundation.dart';
 import 'dart:developer' as developer;

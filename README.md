@@ -12,7 +12,7 @@ start using the package.
 ## Usage
 
 ```dart
-import 'colored_print/colored_print.dart';
+import 'colored_print/flutter_colored_print.dart';
 ```
 
 ## Additional information
