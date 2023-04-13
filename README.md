@@ -56,3 +56,7 @@ c_l.primary("This is primary");
     <p style="color: yellow;margin: 0;padding: 0">[Warning] This is warning</p>
     <p style="color: blue;margin: 0;padding: 0">[Primary] This is primary</p>
 </pre>
+
+### Colored output
+
+![img.png](img.png)
