@@ -134,7 +134,7 @@ void log(Object? message,
 /// ```
 void error(Object? message, {bool allColored = true}) {
   log(message,
-      type: LogType.error, color: LogColor.red, allColored: allColored);
+      type: LogType.error, color: LogType.error.color, allColored: allColored);
 }
 
 /// Logs a warning message to the console with the specified formatting options.
@@ -152,7 +152,7 @@ void error(Object? message, {bool allColored = true}) {
 /// ```
 void warn(Object? message, {bool allColored = true}) {
   log(message,
-      type: LogType.warning, color: LogColor.yellow, allColored: allColored);
+      type: LogType.warning, color: LogType.error.color, allColored: allColored);
 }
 
 /// Logs an informational message to the console with the specified formatting options.
@@ -170,7 +170,7 @@ void warn(Object? message, {bool allColored = true}) {
 /// ```
 void info(Object? message, {bool allColored = true}) {
   log(message,
-      type: LogType.info, color: LogColor.cyan, allColored: allColored);
+      type: LogType.info, color: LogType.error.color, allColored: allColored);
 }
 
 
@@ -189,7 +189,7 @@ void info(Object? message, {bool allColored = true}) {
 /// ```
 void primary(Object? message, {bool allColored = true}) {
   log(message,
-      type: LogType.error, color: LogColor.magenta, allColored: allColored);
+      type: LogType.error, color: LogType.error.color, allColored: allColored);
 }
 
 /// Formats a log output string with a specified [LogType], [LogColor], and formatting options.
