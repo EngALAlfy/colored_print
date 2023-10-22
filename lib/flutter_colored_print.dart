@@ -115,7 +115,7 @@ void log(Object? message,
   if (kDebugMode) {
     String output = handleMessage(message);
     String formatted = formatOutput(output, type, color, allColored);
-    developer.log(formatted);
+    print(formatted);
   }
 }
 
